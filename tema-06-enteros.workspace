@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tema-06-enteros" Database="" Version="10.0.0">
+  <Project Name="01-desbordamiento" Path="desbordamiento/desbordamiento.project" Active="No"/>
+  <Project Name="05-imagen" Path="imagen/imagen.project" Active="Yes"/>
+  <Project Name="suma-cifras" Path="suma-cifras/suma-cifras.project" Active="No"/>
+  <Project Name="num-cifras" Path="num-cifras/num-cifras.project" Active="No"/>
+  <Project Name="cifra" Path="cifra/cifra.project" Active="No"/>
+  <Project Name="06-numero-primo" Path="numero-primo/numero-primo.project" Active="No"/>
+  <Project Name="07-mcd" Path="mcd/mcd.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="01-desbordamiento" ConfigName="Debug"/>
+      <Project Name="05-imagen" ConfigName="Debug"/>
+      <Project Name="03-suma-cifras" ConfigName="Debug"/>
+      <Project Name="02-num-cifras" ConfigName="Debug"/>
+      <Project Name="04-cifra" ConfigName="Debug"/>
+      <Project Name="06-numero-primo" ConfigName="Debug"/>
+      <Project Name="07-mcd" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="01-desbordamiento" ConfigName="Release"/>
+      <Project Name="05-imagen" ConfigName="Release"/>
+      <Project Name="03-suma-cifras" ConfigName="Release"/>
+      <Project Name="02-num-cifras" ConfigName="Release"/>
+      <Project Name="04-cifra" ConfigName="Release"/>
+      <Project Name="06-numero-primo" ConfigName="Release"/>
+      <Project Name="07-mcd" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
