@@ -7,7 +7,7 @@ using namespace std;
  */
 int main() {
     unsigned int factorial = 1;                // factorial = 0!
-    for (iunsigned intnt i = 1; i <= 18; i++) {
+    for (unsigned int i = 1; i <= 18; i++) {
         factorial = i * factorial;             // factorial = i!
         cout << i << "! = " << factorial << endl;
     }
