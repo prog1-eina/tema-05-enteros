@@ -14,7 +14,7 @@ using namespace std;
  *  Post: Ha devuelto la «i»-ésima cifra menos significativa de «n» cuando
  *        «n» se escribe en base 10.
  */
-int cifra(int n, int i) {
+unsigned int cifra(int n, int i) {
     if (n < 0) {
         n = -n;             // si «n» es negativo, le cambia el signo
     }

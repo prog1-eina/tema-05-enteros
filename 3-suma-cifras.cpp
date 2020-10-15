@@ -13,11 +13,11 @@ using namespace std;
  * Post: Ha devuelto la suma de las cifras de «n» cuando «n» se escribe en
  *       base 10.
  */
-int sumaCifras(int n) {
+unsigned int sumaCifras(int n) {
     if (n < 0) {
         n = -n;                 // si «n» es negativo, le cambia el signo
     }
-    int suma = 0;               // suma de las cifras eliminadas de «n»
+    unsigned int suma = 0;      // suma de las cifras eliminadas de «n»
     while (n != 0) {
         suma = suma + n % 10;   // suma la cifra menos significativa de «n»
         n = n / 10;             // y la elimina de «n»
