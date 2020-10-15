@@ -2,8 +2,7 @@
 using namespace std;
 
 /*
- * Pre:  ---
- * Post: Ha mostrado los efectos de un desbordamiento de datos.
+ * Programa que muestra los efectos de un desbordamiento.
  */
 int main() {
     unsigned int factorial = 1;                // factorial = 0!
