@@ -6,9 +6,9 @@ using namespace std;
  * Post: Ha mostrado los efectos de un desbordamiento de datos.
  */
 int main() {
-    int factorial = 1;                // factorial = 0!
-    for (int i = 1; i <= 18; i++) {
-        factorial = i * factorial;    // factorial = i!
+    unsigned int factorial = 1;                // factorial = 0!
+    for (iunsigned intnt i = 1; i <= 18; i++) {
+        factorial = i * factorial;             // factorial = i!
         cout << i << "! = " << factorial << endl;
     }
 
