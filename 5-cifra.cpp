@@ -14,11 +14,11 @@ using namespace std;
  *  Post: Ha devuelto la «i»-ésima cifra menos significativa de «n» cuando
  *        «n» se escribe en base 10.
  */
-unsigned int cifra(int n, int i) {
+unsigned int cifra(int n, unsigned int i) {
     if (n < 0) {
         n = -n;             // si «n» es negativo, le cambia el signo
     }
-    for (int exp = 1; exp < i; exp++) {
+    for (unsigned int exp = 1; exp < i; exp++) {
         n = n / 10;         // elimina la cifra menos significativa de «n»
     }
     return n % 10;
@@ -36,7 +36,7 @@ int main() {
     cin >> numero;
     
     cout << "Seleccione la posición de una cifra: ";
-    int posicion;
+    unsigned int posicion;
     cin >> posicion;
     
     cout << "La cifra situada en la posición " << posicion
