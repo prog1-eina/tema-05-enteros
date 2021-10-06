@@ -16,6 +16,9 @@ using namespace std;
 unsigned numCifras(int n) {
     unsigned cuenta = 1;          // lleva la cuenta de las cifras identificadas
     n = n / 10;                   // elimina la cifra menos significativa de «n»
+    // Hemos comenzado la cuenta en 1 y se ha quitado una cifra antes de entrar
+    // al bucle para que numCifras(0) devuelva 1.
+
     while (n != 0) {
         // El valor de «cuenta» es igual al de cifras identificadas en «n»
         cuenta++;             // contabiliza la cifra menos significativa de «n»
