@@ -13,8 +13,8 @@ using namespace std;
  * Post: Ha devuelto el número de cifras de «n» cuando este se escribe en
  *       base 10.
  */
-unsigned int numCifras(int n) {
-    unsigned int cuenta = 1;      // lleva la cuenta de las cifras identificadas
+unsigned numCifras(int n) {
+    unsigned cuenta = 1;      // lleva la cuenta de las cifras identificadas
     n = n / 10;                   // elimina la cifra menos significativa de «n»
     while (n != 0) {
         // El valor de <cuenta> es igual al de cifras identificadas en «n»

@@ -13,7 +13,7 @@ using namespace std;
  *  Pre: a != 0 o b != 0
  *  Post: Ha devuelto el máximo común divisor de <a> y <b>.
  */
-unsigned int mcd (int a, int b) {
+unsigned mcd (int a, int b) {
     // Algoritmo de Tales para el cálculo del mcd
     if (a < 0) {
         a = -a;

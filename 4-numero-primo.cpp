@@ -13,7 +13,7 @@ using namespace std;
  *  Pre:  ---
  *  Post: Ha devuelto true si y solo si «n» es un número primo.
  */
-bool esPrimo (unsigned int n) {
+bool esPrimo (unsigned n) {
     if (n == 2) {
         return true;      // «n» es igual a 2, luego es primo.
     }
@@ -24,7 +24,7 @@ bool esPrimo (unsigned int n) {
         // Se buscan posibles divisores impares de «n» a partir del 3:
 
         // «divisor» indica el siguiente impar candidato a dividir a «n».
-        unsigned int divisor = 3;              // Primer divisor impar a probar
+        unsigned divisor = 3;              // Primer divisor impar a probar
 
         // «encontrado» indica si se ha encontrado un divisor de «n».
         bool encontrado = false;
@@ -43,7 +43,7 @@ bool esPrimo (unsigned int n) {
  */
 int main() {
     cout << "Escriba un número entero: ";
-    unsigned int numero;
+    unsigned numero;
     cin >> numero;
     
     cout << "El número " << numero;
