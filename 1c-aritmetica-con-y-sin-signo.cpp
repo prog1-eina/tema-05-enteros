@@ -2,15 +2,15 @@
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre
  * Última revisión: 6 de octubre de 2021
- * Resumen: Programa que muestra los efectos de una multiplicación utilizando
+ * Resumen: Programa que muestra los resultados de una multiplicación utilizando
  *          enteros con y sin signo.
  ******************************************************************************/
 #include <iostream>
 using namespace std;
 
 /*
- * Programa que muestra los efectos de una multiplicación utilizando enteros con
- * y sin signo.
+ * Programa que muestra los resultados de una multiplicación utilizando enteros 
+ * con y sin signo.
  */
 int main() {
     int a = -8;
