@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 16 de octubre de 2020
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Programa que muestra los efectos de un desbordamiento.
  ******************************************************************************/
 #include <iostream>

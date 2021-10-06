@@ -1,17 +1,17 @@
-/*********************************************************************************
+/*******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 14 de octubre de 2019
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Programa que pide dos números enteros y escribe en la pantalla su
  *          máximo común divisor.
- ********************************************************************************/
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 
 
 /*
- *  Pre: a != 0 o b != 0
- *  Post: Ha devuelto el máximo común divisor de <a> y <b>.
+ *  Pre:  a ≠ 0 ∨ b ≠ 0
+ *  Post: Ha devuelto el máximo común divisor de «a» y «b».
  */
 unsigned mcd (int a, int b) {
     // Algoritmo de Tales para el cálculo del mcd

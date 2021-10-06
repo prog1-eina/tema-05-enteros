@@ -1,10 +1,10 @@
-/*********************************************************************************
+/*******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 14 de octubre de 2019
- * Resumen: Programa que pide un número entero y escribe en la pantalla su imagen
- *          especular.
- ********************************************************************************/
+ * Última revisión: 6 de octubre de 2021
+ * Resumen: Programa que pide un número entero y escribe en la pantalla su
+ *          imagen especular.
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 

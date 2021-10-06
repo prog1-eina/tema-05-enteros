@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 10 de octubre de 2019
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Programa que pide un número entero e informa sobre la 
  *          suma de las cifras que lo componen.
  ******************************************************************************/
@@ -17,7 +17,7 @@ unsigned sumaCifras(int n) {
     if (n < 0) {
         n = -n;                 // si «n» es negativo, le cambia el signo
     }
-    unsigned suma = 0;      // suma de las cifras eliminadas de «n»
+    unsigned suma = 0;          // suma de las cifras eliminadas de «n»
     while (n != 0) {
         suma = suma + n % 10;   // suma la cifra menos significativa de «n»
         n = n / 10;             // y la elimina de «n»
@@ -27,8 +27,8 @@ unsigned sumaCifras(int n) {
 
 
 /*
- * Programa que pide un número entero e informa sobre la 
- * suma de las cifras que lo componen.
+ * Programa que pide un número entero e informa sobre la suma de las cifras que
+ * lo componen.
  */
 int main() {
     cout << "Escriba un número entero: ";
