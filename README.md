@@ -1,7 +1,3 @@
-# tema-06-enteros
- Código del tema 6 (enteros) de la asignatura Programación 1. Escuela de Ingeniería y Arquitectura de la Universidad de Zaragoza
-
-
 # Tema 5. Enteros
 
 Código de las transparencias del tema 5 (Enteros) de la asignatura [Programación 1](https://github.com/prog1-eina) ([Grado en Ingeniería Informática](https://webdiis.unizar.es/~silarri/coordinadorGrado/), [Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/), [Universidad de Zaragoza](https://www.unizar.es/)).
