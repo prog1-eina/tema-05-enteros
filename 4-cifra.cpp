@@ -1,28 +1,13 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 6
+ * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 6 de octubre de 2021
+ * Última revisión: 3 de octubre de 2022
  * Resumen: Programa que pide un número entero y la posición de una
  *          cifra de dicho número e informa sobre la cifra que ocupa la citada
  *          posición.
  ******************************************************************************/
 #include <iostream>
 using namespace std;
-
-/*
- *  Pre:  i ≥ 1
- *  Post: Ha devuelto la «i»-ésima cifra menos significativa de «n» cuando
- *        «n» se escribe en base 10.
- */
-unsigned cifra(int n, unsigned i) {
-    if (n < 0) {
-        n = -n;             // si «n» es negativo, le cambia el signo
-    }
-    for (unsigned exp = 1; exp < i; exp++) {
-        n = n / 10;         // elimina la cifra menos significativa de «n»
-    }
-    return n % 10;
-}
 
 
 /*
@@ -37,10 +22,17 @@ int main() {
     cout << "Seleccione la posición de una cifra: ";
     unsigned posicion;
     cin >> posicion;
-    
-    cout << "La cifra situada en la posición " << posicion
-         << " del número " << numero << " es "
-         << cifra(numero, posicion) << "." << endl;
 
-    return 0;
+    unsigned n = numero;
+    if (numero < 0) {
+        n = -numero;             // si «n» es negativo, le cambia el signo
+    }
+    for (unsigned exp = 1; exp < posicion; exp++) {
+        n = n / 10;         // elimina la cifra menos significativa de «n»
+    }
+    unsigned cifra = n % 10;
+
+
+    cout << "La cifra situada en la posición " << posicion << " del número "
+         << numero << " es " << cifra << "." << endl;
 }

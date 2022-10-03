@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 6
+ * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre
  * Última revisión: 21 de octubre de 2021
  * Resumen: Programa que muestra los resultados de operaciones utilizando
@@ -31,6 +31,4 @@ int main() {
     // convertir explícitamente b en entero con signo:
     cout << "    Suma a + int(b): " << a + int(b) << endl;
     cout << "Producto a * int(b): " << a * int(b) << endl;
-
-    return 0;
 }

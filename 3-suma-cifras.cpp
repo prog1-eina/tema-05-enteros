@@ -1,7 +1,7 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 6
+ * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 6 de octubre de 2021
+ * Última revisión: 3 de octubre de 2022
  * Resumen: Programa que pide un número entero e informa sobre la 
  *          suma de las cifras que lo componen.
  ******************************************************************************/
@@ -9,34 +9,27 @@
 using namespace std;
 
 /*
- * Pre:  ---
- * Post: Ha devuelto la suma de las cifras de «n» cuando «n» se escribe en
- *       base 10.
+ * Programa que pide un número entero e informa sobre la suma de las cifras que
+ * lo componen.
  */
-unsigned sumaCifras(int n) {
+int main() {
+    // Petición del dato
+    cout << "Escriba un número entero: ";
+    int numero;
+    cin >> numero;
+
+    // Cálculo de la suma de las cifras
+    int n = numero;
     if (n < 0) {
         n = -n;                 // si «n» es negativo, le cambia el signo
     }
+
     unsigned suma = 0;          // suma de las cifras eliminadas de «n»
     while (n != 0) {
         suma = suma + n % 10;   // suma la cifra menos significativa de «n»
         n = n / 10;             // y la elimina de «n»
     }
-    return suma;
-}
 
-
-/*
- * Programa que pide un número entero e informa sobre la suma de las cifras que
- * lo componen.
- */
-int main() {
-    cout << "Escriba un número entero: ";
-    int numero;
-    cin >> numero;
-
-    cout << "Las cifras de " << numero << " suman "
-         << sumaCifras(numero) << "." << endl;
-
-    return 0;
+    // Escritura del resultado
+    cout << "Las cifras de " << numero << " suman " << suma << "." << endl;
 }

@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 6
+ * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 6 de octubre de 2021
  * Resumen: Programa que muestra los efectos de un desbordamiento.
@@ -16,6 +16,4 @@ int main() {
         factorial = i * factorial;                       // factorial = i!
         cout << i << "! = " << factorial << endl;
     }
-
-    return 1;
 }
