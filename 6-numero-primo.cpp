@@ -18,7 +18,7 @@ int main() {
     unsigned n;
     cin >> n;
 
-    // Cálculo de la primalidad del número y escritura del  resultado
+    // Cálculo de la primalidad del número y escritura del resultado
     if (n == 2) {
         // «n» es igual a 2, luego es primo.
         cout << "El número " << n << " es primo." << endl;
