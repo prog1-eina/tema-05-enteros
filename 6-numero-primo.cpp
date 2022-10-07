@@ -2,7 +2,7 @@
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 5 de octubre de 2022
- * Resumen: Programa que pide un número entero y escribe en la pantalla si es 
+ * Resumen: Programa que pide un número natural y escribe en la pantalla si es 
  *          primo o no.
  ******************************************************************************/
 #include <iostream>
@@ -10,11 +10,11 @@ using namespace std;
 
 
 /*
- * Programa que pide un número entero y escribe en la pantalla si es primo o no.
+ * Programa que pide un número natural y escribe en la pantalla si es primo o no.
  */
 int main() {
     // Petición del dato
-    cout << "Escriba un número entero: ";
+    cout << "Escriba un número natural: ";
     unsigned n;
     cin >> n;
 
