@@ -22,12 +22,10 @@ int main() {
     if (n == 2) {
         // «n» es igual a 2, luego es primo.
         cout << "El número " << n << " es primo." << endl;
-    }
-    else if (n < 2 || n % 2 == 0) {
+    } else if (n < 2 || n % 2 == 0) {
         // «n» es menor que 2 o par mayor que 2.
         cout << "El número " << n << " no es primo." << endl;
-    }
-    else {
+    } else {
         // Se buscan posibles divisores impares de «n» a partir del 3:
 
         // «divisor» indica el siguiente impar candidato a dividir a «n».
@@ -43,8 +41,7 @@ int main() {
 
         if (encontrado) {
             cout << "El número " << n << " no es primo." << endl;
-        }
-        else {
+        } else {
             cout << "El número " << n << " es primo." << endl;
         }
     }
