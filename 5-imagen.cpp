@@ -1,10 +1,9 @@
-/*******************************************************************************
+/*********************************************************************************************\
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 3 de octubre de 2022
- * Resumen: Programa que pide un número entero y escribe en la pantalla su
- *          imagen especular.
- ******************************************************************************/
+ * Última revisión: 25-9-2023
+ * Resumen: Programa que pide un número entero y escribe en la pantalla su imagen especular.
+\*********************************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -39,6 +38,5 @@ int main() {
         imagen = -imagen;
     }
 
-    cout << "El número imagen especular de " << numero
-         << " es el " << imagen << "." << endl;
+    cout << "La imagen especular de " << numero << " es " << imagen << "." << endl;
 }
