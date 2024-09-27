@@ -14,9 +14,9 @@ using namespace std;
  * unsigned.
  */
 int main() {
-    // UINT_MAX es mayor entero sin signo representable como unsigned int.
+    // UINT_MAX es mayor entero sin signo representable como unsigned.
     // Está definido en <climits>
-    // Si la implementación de unsigned int usa 32 bits, es 2³² - 1 = 4294967295
+    // Si la implementación de unsigned usa 32 bits, es 2³² - 1 = 4294967295
     unsigned i = UINT_MAX; 
     cout << "i = " << i << endl;
     cout << "¿¿i == -1??: " << boolalpha << (i == -1) << endl;
