@@ -17,9 +17,8 @@ int main() {
     int numero;
     cin >> numero;
 
-    bool negativo = numero < 0;
     unsigned n = numero;
-    if (negativo) {
+    if (numero < 0) {
         n = -numero;                  // si «numero» es negativo, le cambia el signo
     }
 
@@ -34,7 +33,7 @@ int main() {
     
     // Se devuelve el valor «imagen» con el signo que tenía «n» al principio de
     // la ejecución de este programa.
-    if (negativo) {
+    if (numero < 0) {
         imagen = -imagen;
     }
 
