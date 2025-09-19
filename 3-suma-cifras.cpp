@@ -1,10 +1,10 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 3 de octubre de 2022
  * Resumen: Programa que pide un número entero e informa sobre la 
  *          suma de las cifras que lo componen.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 

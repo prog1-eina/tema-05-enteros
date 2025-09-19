@@ -1,16 +1,17 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 5 de octubre de 2022
  * Resumen: Programa que pide un número natural y escribe en la pantalla si es 
  *          primo o no.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
 
 /*
- * Programa que pide un número natural y escribe en la pantalla si es primo o no.
+ * Programa que pide un número natural y escribe en la pantalla si es primo o
+ * no.
  */
 int main() {
     // Petición del dato
@@ -29,7 +30,7 @@ int main() {
         // Se buscan posibles divisores impares de «n» a partir del 3:
 
         // «divisor» indica el siguiente impar candidato a dividir a «n».
-        unsigned divisor = 3;                   // Primer divisor impar a probar
+        unsigned divisor = 3;      // Primer impar candidato a divisor a probar
 
         // «encontrado» indica si se ha encontrado un divisor de «n».
         bool encontrado = false;

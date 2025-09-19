@@ -1,17 +1,17 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Ricardo J. Rodríguez
  * Última revisión: 14 de octubre de 2022
  * Resumen: Programa que muestra los efectos de un desbordamiento negativo con
  *          datos de tipo unsigned.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <climits>
 using namespace std;
 
 /*
- * Programa que muestra los efectos de un desbordamiento negativo con datos de tipo
- * unsigned.
+ * Programa que muestra los efectos de un desbordamiento negativo con datos de
+ * tipo unsigned.
  */
 int main() {
     // UINT_MAX es mayor entero sin signo representable como unsigned.

@@ -1,18 +1,18 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 3 de octubre de 2022
  * Resumen: Programa que pide un número entero y la posición de una
  *          cifra de dicho número e informa sobre la cifra que ocupa la citada
  *          posición.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
 
 /*
- * Programa que pide un número entero y la posición de una cifra de dicho número
- * e informa sobre la cifra que ocupa la citada posición.
+ * Programa que pide un número entero y la posición de una cifra de dicho
+ * número e informa sobre la cifra que ocupa la citada posición.
  */
 int main() {
     cout << "Escriba un número entero: ";
