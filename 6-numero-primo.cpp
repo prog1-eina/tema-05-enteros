@@ -40,6 +40,7 @@ int main() {
             divisor = divisor + 2;
         }
 
+        // Discriminación del resultado de la búsqueda de un divisor
         if (encontrado) {
             cout << "El número " << n << " no es primo." << endl;
         } else {
