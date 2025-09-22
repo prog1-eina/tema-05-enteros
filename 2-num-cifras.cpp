@@ -31,5 +31,6 @@ int main() {
     }
 
     // Escritura del resultado
-    cout << "El número " << numero << " tiene " << cuenta << " cifras." << endl;
+    cout << "El número " << numero << " tiene " << cuenta
+         << " cifras." << endl;
 }
