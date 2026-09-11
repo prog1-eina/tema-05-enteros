@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 5 de octubre de 2022
  * Resumen: Programa que pide un número natural y escribe en la pantalla si es 
  *          primo o no.
  *****************************************************************************/

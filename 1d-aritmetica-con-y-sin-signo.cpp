@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre
- * Última revisión: 21 de octubre de 2021
  * Resumen: Programa que muestra los resultados de operaciones utilizando
  *          enteros con y sin signo.
  *****************************************************************************/

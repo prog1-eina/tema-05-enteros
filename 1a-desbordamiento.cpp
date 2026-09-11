@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 6 de octubre de 2021
  * Resumen: Programa que muestra los efectos de un desbordamiento.
  *****************************************************************************/
 #include <iostream>
