@@ -3,6 +3,7 @@
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Resumen: Programa que pide un número natural y escribe en la pantalla si es 
  *          primo o no.
+ *          Solución no optimizada: se busca un divisor del número.
  *****************************************************************************/
 #include <iostream>
 using namespace std;
@@ -19,24 +20,21 @@ int main() {
     cin >> n;
 
     // Cálculo de la primalidad del número y escritura del resultado
-    if (n == 2) {
-        // «n» es igual a 2, luego es primo.
-        cout << "El número " << n << " es primo." << endl;
-    } else if (n < 2 || n % 2 == 0) {
-        // «n» es menor que 2 o par mayor que 2.
+    if (n < 2) {
+        // «n» es 0 o 1.
         cout << "El número " << n << " no es primo." << endl;
     } else {
-        // Se buscan posibles divisores impares de «n» a partir del 3:
+        // Se buscan posibles divisores de «n» a partir del 2:
 
-        // «divisor» indica el siguiente impar candidato a dividir a «n».
-        unsigned divisor = 3;      // Primer impar candidato a divisor a probar
+        // «candidato» es el siguiente candidato a divisor de «n».
+        unsigned candidato = 2;    // Primer candidato a divisor a probar
 
         // «encontrado» indica si se ha encontrado un divisor de «n».
         bool encontrado = false;
 
-        while (!encontrado && divisor * divisor <= n) {
-            encontrado = n % divisor == 0;
-            divisor = divisor + 2;
+        while (!encontrado && candidato < n) {
+            encontrado = n % candidato == 0;
+            candidato++;
         }
 
         // Discriminación del resultado de la búsqueda de un divisor
